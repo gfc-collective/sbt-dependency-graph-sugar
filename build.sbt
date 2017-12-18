@@ -12,10 +12,10 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.4" % "test"
 
 scalacOptions ++= Seq("-deprecation", "-unchecked")
 
-ScriptedPlugin.scriptedSettings
-
 scriptedLaunchOpts := {
   println(s"Setting scripted version ${version.value}")
   scriptedLaunchOpts.value ++
     Seq("-Xmx1024M", "-XX:MaxPermSize=256M", "-Dplugin.version=" + version.value)
 }
+
+scriptedBufferLog := false
