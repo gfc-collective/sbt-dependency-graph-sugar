@@ -6,6 +6,8 @@ libraryDependencies += {
   sbt.Defaults.sbtPluginExtra("net.virtual-void" % "sbt-dependency-graph" % sbtDependencyGraphVersion(version.value), (sbtBinaryVersion in pluginCrossBuild).value, (scalaBinaryVersion in pluginCrossBuild).value)
 }
 
+crossSbtVersions += "1.0.4"
+
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.4" % "test"
 
 scalacOptions ++= Seq("-deprecation", "-unchecked")

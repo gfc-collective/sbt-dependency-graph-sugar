@@ -4,7 +4,7 @@ name := "sbt-dependency-graph-sugar"
 
 organization := "com.gilt"
 
-version in ThisBuild := "git describe --tags --always --dirty".!!.trim.replaceFirst("^v", "")
+version in ThisBuild := "0.9.0"
 
 homepage := Some(url("http://github.com/gilt/sbt-dependency-graph-sugar"))
 
