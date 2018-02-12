@@ -6,7 +6,7 @@ libraryDependencies += {
   sbt.Defaults.sbtPluginExtra("net.virtual-void" % "sbt-dependency-graph" % sbtDependencyGraphVersion(version.value), (sbtBinaryVersion in pluginCrossBuild).value, (scalaBinaryVersion in pluginCrossBuild).value)
 }
 
-crossSbtVersions += "1.0.4"
+crossSbtVersions := List("0.13.17", "1.1.1")
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.4" % "test"
 
