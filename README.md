@@ -1,7 +1,7 @@
 sbt-dependency-graph-sugar
 ==========================
 
-At Gilt we’ve come to love [sbt-dependency-graph](https://github.com/jrudolph/sbt-dependency-graph), but have been frustrated with the ascii output, and found the other outputs not straightforward to use.
+At HBC we’ve come to love [sbt-dependency-graph](https://github.com/jrudolph/sbt-dependency-graph), but have been frustrated with the ascii output, and found the other outputs not straightforward to use.
 
 This plugin provides some “sugar” that makes life a bit nicer when you are running on a machine with [GraphViz](http://www.graphviz.org/) installed.
 
@@ -16,7 +16,7 @@ Enable the plugin with the following configuration:
 addSbtPlugin("com.gilt" % "sbt-dependency-graph-sugar" % "0.9.0")
 ```
 
-In the past at Gilt we had a monolithic build plugin that pulled in a bunch of things by default, including this sugar.  We are now moving away from this approach.  Instead of putting this in your project’s ``project/plugins.sbt`` file, we recommend putting it once in your ``~/.sbt/0.13/plugins/sbt-dependency-graph-sugar.sbt`` file, so that it is available in all your apps and managed in the “per-machine plane” instead of per application. This way you can customize the command to view the svg to work always on a given machine.
+In the past at HBC we had a monolithic build plugin that pulled in a bunch of things by default, including this sugar.  We are now moving away from this approach.  Instead of putting this in your project’s ``project/plugins.sbt`` file, we recommend putting it once in your ``~/.sbt/0.13/plugins/sbt-dependency-graph-sugar.sbt`` file, so that it is available in all your apps and managed in the “per-machine plane” instead of per application. This way you can customize the command to view the svg to work always on a given machine.
 
 ### Usage
 
