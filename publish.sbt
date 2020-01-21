@@ -13,12 +13,14 @@ publishArtifact in Test := false
 
 pomIncludeRepository := { _ => false }
 
-sonatypeProfileName := "com.gilt"
+sonatypeProfileName := "org.gfccollective"
+
+releasePublishArtifactsAction := PgpKeys.publishSigned.value
 
 pomExtra := (
   <scm>
-    <url>git@github.com:gilt/sbt-dependency-graph-sugar.git</url>
-    <connection>scm:git:git@github.com:gilt/sbt-dependency-graph-sugar.git</connection>
+    <url>git@github.com:gfc-collective/sbt-dependency-graph-sugar.git</url>
+    <connection>scm:git:git@github.com:gfc-collective/sbt-dependency-graph-sugar.git</connection>
   </scm>
   <developers>
     <developer>

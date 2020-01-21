@@ -2,7 +2,7 @@ sbtPlugin := true
 
 name := "sbt-dependency-graph-sugar"
 
-organization := "com.gilt"
+organization := "org.gfccollective"
 
 version in ThisBuild := "0.9.0"
 
