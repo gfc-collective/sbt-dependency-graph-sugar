@@ -1,5 +1,4 @@
-sbt-dependency-graph-sugar
-==========================
+# sbt-dependency-graph-sugar [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.gfccollective/sbt-dependency-graph-sugar/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/org.gfccollective/sbt-dependency-graph-sugar) [![Build Status](https://github.com/gfc-collective/sbt-dependency-graph-sugar/workflows/Scala%20CI/badge.svg)](https://github.com/gfc-collective/sbt-dependency-graph-sugar/actions) [![Coverage Status](https://coveralls.io/repos/gfc-collective/sbt-dependency-graph-sugar/badge.svg?branch=master&service=github)](https://coveralls.io/github/gfc-collective/sbt-dependency-graph-sugar?branch=master)
 
 We’ve come to love [sbt-dependency-graph](https://github.com/jrudolph/sbt-dependency-graph), but have been frustrated with the ascii output, and found the other outputs not straightforward to use.
 
