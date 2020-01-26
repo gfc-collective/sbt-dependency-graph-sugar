@@ -1,10 +1,8 @@
 # sbt-dependency-graph-sugar [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.gfccollective/sbt-dependency-graph-sugar/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/org.gfccollective/sbt-dependency-graph-sugar) [![Build Status](https://github.com/gfc-collective/sbt-dependency-graph-sugar/workflows/Scala%20CI/badge.svg)](https://github.com/gfc-collective/sbt-dependency-graph-sugar/actions) [![Coverage Status](https://coveralls.io/repos/gfc-collective/sbt-dependency-graph-sugar/badge.svg?branch=master&service=github)](https://coveralls.io/github/gfc-collective/sbt-dependency-graph-sugar?branch=master)
 
 We’ve come to love [sbt-dependency-graph](https://github.com/jrudolph/sbt-dependency-graph), but have been frustrated with the ascii output, and found the other outputs not straightforward to use.
-
-This plugin provides some “sugar” that makes life a bit nicer when you are running on a machine with [GraphViz](http://www.graphviz.org/) installed.
-
-Scripted tests status [![Circle CI](https://circleci.com/gh/gilt/sbt-dependency-graph-sugar/tree/master.svg?style=svg)](https://circleci.com/gh/gilt/sbt-dependency-graph-sugar/tree/master)
+This sbt plugin provides some “sugar” that makes life a bit nicer when you are running on a machine with [GraphViz](http://www.graphviz.org/) installed.
+A fork and new home of the unmaintained Gilt sbt plugin, now under the [GFC Collective](https://github.com/gfc-collective) umbrella, maintained by some of the original authors.
 
 ### Installation
 
