@@ -1,4 +1,4 @@
-addSbtPlugin("com.github.sbt" % "sbt-release" % "1.0.15")
+addSbtPlugin("com.github.sbt" % "sbt-release" % "1.1.0")
 
 libraryDependencies += "org.gfccollective" %% "gfc-semver" % "1.0.0"
 
