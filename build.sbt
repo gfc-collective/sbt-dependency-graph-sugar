@@ -4,7 +4,7 @@ libraryDependencies += {
     val semVer = org.gfccollective.semver.SemVer(sugarVersion)
     s"${semVer.major}.${semVer.minor}.${semVer.point}"
   }
-  sbt.Defaults.sbtPluginExtra("net.virtual-void" % "sbt-dependency-graph" % sbtDependencyGraphVersion(version.value), (sbtBinaryVersion in pluginCrossBuild).value, (scalaBinaryVersion in pluginCrossBuild).value)
+  sbt.Defaults.sbtPluginExtra("net.virtual-void" % "sbt-dependency-graph" % sbtDependencyGraphVersion(version.value), (pluginCrossBuild / sbtBinaryVersion).value, (pluginCrossBuild / scalaBinaryVersion).value)
 }
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.9" % "test"
